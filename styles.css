@@ -1,0 +1,162 @@
+html, body {
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#25437A, darkcyan);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#25437A, darkcyan);
+    z-index: -1;
+}
+
+div{
+    margin: 20px;
+}
+
+.card-title{
+    margin-top: 2rem;
+}
+
+.link-list{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;;
+}
+
+.description{
+    text-align: left;
+    width: 100%;
+}
+
+.desc-div{
+    display: flex;
+    justify-content: center;
+}
+
+.watch-button{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main{
+    margin: 0;
+    min-height: 100%;
+    height: auto;
+    overflow: visible;
+    justify-content: center;
+    color: white;
+    min-height: 100vh; /* Ensures the main content takes up the full viewport height */
+    overflow: hidden; /* Prevents extra scrolling space */
+}
+
+.hero{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.hero_section{
+    display: block;
+    justify-content: center;
+}
+
+#slogan{
+    margin-bottom: .5rem;
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    height: 22rem;
+}
+
+.btn-latest{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inside-btn{
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10rem;
+    margin-bottom: 0;
+}
+.inside-btn:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.frame{
+    height: 100%;
+}
+
+.title-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: -2rem;
+}
+
+svg {
+    width: 4vw;  /* 5% of viewport width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 30px; /* Prevent excessive scaling */
+  }
+
+@media (min-width: 480px) {
+    .title-text{
+        text-align: center;
+    }
+    .top{
+        display: block;
+    }
+}
+
+@media (max-width: 992px){
+    .main-image{
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+        margin-bottom: -2rem;
+    }
+}
+
+.episode-title{
+    margin-top: -1rem;
+}
+
+.date{
+    color: gray;
+}
