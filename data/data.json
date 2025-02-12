@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Episode 1 Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus semper lobortis.",
+      "length": "1hr 30m",
+      "date": "01/20/25",
+      "guest": "Jeff Bezos"
+    },
+    {
+      "id": 2,
+      "title": "Episode 2 Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus semper lobortis.",
+      "length": "1hr 30m",
+      "date": "01/25/25",
+      "guest": "Elon Musk"
+    }
+  ]

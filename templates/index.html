@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../static/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,9 +20,9 @@
   </head>
   <body>
     <div class="main">
-      <div class="card">
+      <div class="card card-size">
         <div class="row top">
-          <div class="col-lg-5 col-12 title-img">
+          <div class="col-12 title-img">
             <div class="main-image">
               <img
                 src="./static/example-img.webp"
@@ -31,7 +31,7 @@
               />
             </div>
           </div>
-            <div class="col-lg-6 col-12">
+            <div class="col-12">
                 <div class="card-body title-text">
                     <h5 class="card-title">Podcast Title</h5>
                     <a
@@ -109,36 +109,16 @@
         <div>
           <h2 style="margin-left: 1rem">Episodes</h2>
           <ul class="list-group list-group-flush">
+            {% for episode in data %}
             <li class="list-group-item">
-              <p class="date">Date:</p>
-              <h5 class="episode-title">Episode 01</h5>
+              <p class="date">{{episode.date}}</p>
+              <h5 class="episode-title"><span>{{episode.title}} w/ ({{episode.guest}})</span></h5>
+              <p class="ep-length">{{episode.length}}</p>
               <p class="ep-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                faucibus semper lobortis. Nulla finibus maximus eros, nec
-                iaculis felis suscipit a. In rhoncus cursus diam, nec dapibus
-                nisl interdum at.
+                {{episode.description}}
               </p>
             </li>
-            <li class="list-group-item">
-                <p class="date">Date:</p>
-                <h5 class="episode-title">Episode 02</h5>
-                <p class="ep-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                  faucibus semper lobortis. Nulla finibus maximus eros, nec
-                  iaculis felis suscipit a. In rhoncus cursus diam, nec dapibus
-                  nisl interdum at.
-                </p>
-              </li>
-              <li class="list-group-item">
-                <p class="date">Date:</p>
-                <h5 class="episode-title">Episode 03</h5>
-                <p class="ep-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                  faucibus semper lobortis. Nulla finibus maximus eros, nec
-                  iaculis felis suscipit a. In rhoncus cursus diam, nec dapibus
-                  nisl interdum at.
-                </p>
-              </li>
+            {% endfor %}
           </ul>
       </div>
     </div>
