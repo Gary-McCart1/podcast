@@ -111,12 +111,15 @@
           <ul class="list-group list-group-flush">
             {% for episode in data %}
             <li class="list-group-item">
-              <p class="date">{{episode.date}}</p>
+              <p class="date">{{episode.date}} &middot; {{episode.length}}</p>
               <h5 class="episode-title"><span>{{episode.title}} w/ ({{episode.guest}})</span></h5>
-              <p class="ep-length">{{episode.length}}</p>
               <p class="ep-desc">
                 {{episode.description}}
               </p>
+              <div class="d-flex justify-content-start m-0">
+                <a href="https://spotify.com" class="me-2 text-dark ">Watch on Spotify</a>
+                <a href="https://youtube.com" class="text-dark">Watch on Youtube</a>
+              </div>
             </li>
             {% endfor %}
           </ul>
