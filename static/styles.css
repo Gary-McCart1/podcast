@@ -183,7 +183,7 @@ svg {
 .card-img{
     background: 
         linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), /* White to black gradient */
-        url("../static/podcast-bg-img\ \(1\).png"); /* Background image */
+        url("../static/podcast-bg.png"); /* Background image */
     width: 100%; /* Or a specific value */
     height: 35rem; /* Adjust height as needed */
     background-size: cover; /* Ensures it fills the space */
