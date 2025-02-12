@@ -3,7 +3,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#25437A, darkcyan);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -15,7 +14,6 @@ html::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#25437A, darkcyan);
     z-index: -1;
 }
 
@@ -29,6 +27,7 @@ div{
 
 .link-list{
     margin: auto;
+    width: 75%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -72,9 +71,11 @@ div{
 }
 
 .main-image{
+    margin: 0;
     display: flex;
     justify-content: center;
-    height: 20rem;
+    width: 90%;
+    height: 90%
 }
 
 .btn-latest{
@@ -82,9 +83,17 @@ div{
     text-decoration: none;
     color: black;
     width: 100%;
-    display: flex;
+    display: 100%;
     justify-content: center;
+}
 
+.hero-div{
+    margin: 0;
+    margin-top: 15rem;
+    margin-left: -.75rem;
+    display: block;
+    justify-items: center;
+    align-items: center;
 }
 
 .inside-btn{
@@ -93,8 +102,8 @@ div{
     padding: 8px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 10rem;
+    justify-content: center;
+    width: 20rem;
     margin-bottom: 0;
 }
 
@@ -120,16 +129,26 @@ div{
 .title-text{
     margin-right: 1px;
     text-align: center;
+    color: white !important;
 }
+
+.description{
+    text-align: justify;
+}
+
 .desc-body{
     margin-top: 1rem;
     margin-bottom: 2rem;
+    max-width: 750px;
 }
+
 .top{
+    margin-right: 1rem;
     display: flex;
     justify-content: center;
     width: 100%;
     margin-bottom: -2rem;
+    border: 1px solid red;
 }
 
 svg {
@@ -137,26 +156,6 @@ svg {
     height: auto; /* Maintain aspect ratio */
     max-width: 30px; /* Prevent excessive scaling */
   }
-
-@media (min-width: 480px) {
-    .title-img{
-        text-align: left;
-        display: flex;
-        justify-content: center;
-    }
-    .top{
-        display: block;
-    }
-}
-
-@media (max-width: 992px){
-    .main-image{
-        display: flex;
-        justify-content: center;
-        height: 20rem;
-        margin-bottom: -2rem;
-    }
-}
 
 .episode-title{
     margin-top: -1rem;
@@ -175,29 +174,22 @@ svg {
 }
 
 .card-size{
+    margin-top: 3rem;
     margin: auto;
     display: flex;
     justify-content: center;
 }
 
-@media (min-width: 992px){
-    .card-size{
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        width: 70%;
-        border: 1px solid red;
-    }
-}
-
-@media (min-width: 534px){
-    .card-size{
-        width: 70%;
-    }
-}
-
-@media (max-width: 534px){
-    .card-size{
-        width: 90%;
-    }
+.card-img{
+    background: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), /* White to black gradient */
+        url("../static/podcast-bg-img\ \(1\).png"); /* Background image */
+    width: 100%; /* Or a specific value */
+    height: 35rem; /* Adjust height as needed */
+    background-size: cover; /* Ensures it fills the space */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    margin: 0;
+    position: relative;
+    border-radius: 20%;
 }
