@@ -7,6 +7,7 @@ html, body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 html::before {
     content: "";
     position: fixed;
@@ -15,6 +16,7 @@ html::before {
     width: 100%;
     height: 100%;
     z-index: -1;
+    background-color: black;
 }
 
 div{
@@ -45,8 +47,6 @@ div{
 
 .main{
     margin: 0;
-    min-height: 100%;
-    height: auto;
     overflow: visible;
     justify-content: center;
     color: white;
@@ -142,15 +142,6 @@ div{
     max-width: 750px;
 }
 
-.top{
-    margin-right: 1rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: -2rem;
-    border: 1px solid red;
-}
-
 svg {
     width: 6vw;  /* 5% of viewport width */
     height: auto; /* Maintain aspect ratio */
@@ -178,6 +169,14 @@ svg {
     margin: auto;
     display: flex;
     justify-content: center;
+    width: 90%;
+    border: none !important;
+    border-radius: 5% !important;
+}
+
+.main{
+    background: linear-gradient(to bottom, #2C2C2C, #121212);
+    display: flex;
 }
 
 .card-img{
@@ -191,5 +190,37 @@ svg {
     background-repeat: no-repeat; /* Prevents tiling */
     margin: 0;
     position: relative;
-    border-radius: 20%;
+    border-radius: 5% !important;
+}
+
+@media (max-width: 550px){
+    .card-size{
+        height: auto;
+        width: 100% !important;
+        border-radius: 0 !important;
+    }
+    .main{
+        background: black;
+        display: block;
+    }
+    .card-img{
+        border-top-left-radius: 0% !important;
+        border-top-right-radius: 0% !important;
+        border-bottom-left-radius: 3% !important;
+        border-bottom-left-radius: 3% !important;
+    }
+}
+
+@media (min-width: 1000px){
+    .card-size{
+        height: auto;
+        width: 100% !important;
+        border-radius: 0 !important;
+    }
+    .card-img{
+        border-radius: 0% !important;
+    }
+    .main{
+        display: block;
+    }
 }
