@@ -3,9 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: black;
 }
 
 html::before {
@@ -16,7 +14,6 @@ html::before {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: black;
 }
 
 div{
@@ -36,6 +33,10 @@ div{
     margin-bottom: 2rem;
 }
 
+.list-item svg:hover{
+    fill: gray;
+}
+
 
 .watch-button{
     height: 100%;
@@ -46,6 +47,8 @@ div{
 }
 
 .main{
+    background-color: black !important;
+    display: flex;
     margin: 0;
     overflow: visible;
     justify-content: center;
@@ -89,7 +92,7 @@ div{
 
 .hero-div{
     margin: 0;
-    margin-top: 15rem;
+    margin-top: 20rem;
     margin-left: -.75rem;
     display: block;
     justify-items: center;
@@ -108,7 +111,11 @@ div{
 }
 
 .inside-btn:hover{
-    background-color: rgb(218, 218, 218);
+    background-color: gray;
+}
+
+.watch-link:hover{
+    color: #26437a !important;
 }
 
 .frame{
@@ -139,7 +146,7 @@ div{
 .desc-body{
     margin-top: 1rem;
     margin-bottom: 2rem;
-    max-width: 750px;
+    max-width: 650px;
 }
 
 svg {
@@ -165,7 +172,7 @@ svg {
 }
 
 .card-size{
-    margin-top: 3rem;
+    margin-top: 2rem !important;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -174,17 +181,14 @@ svg {
     border-radius: 5% !important;
 }
 
-.main{
-    background: linear-gradient(to bottom, #2C2C2C, #121212);
-    display: flex;
-}
-
 .card-img{
-    background: 
-        linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), /* White to black gradient */
-        url("../static/podcast-bg.png"); /* Background image */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, .5)), /* White to black gradient */
+        url("../static/bg\ \(1380\ x\ 1050\ px\).png"); /* Background image */
+    background-size: cover; /* Ensures it fills the space */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
     width: 100%; /* Or a specific value */
-    height: 35rem; /* Adjust height as needed */
+    height: 40rem; /* Adjust height as needed */
     background-size: cover; /* Ensures it fills the space */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
@@ -198,6 +202,7 @@ svg {
         height: auto;
         width: 100% !important;
         border-radius: 0 !important;
+        margin-top: 0rem !important;
     }
     .main{
         background: black;
@@ -206,21 +211,35 @@ svg {
     .card-img{
         border-top-left-radius: 0% !important;
         border-top-right-radius: 0% !important;
-        border-bottom-left-radius: 3% !important;
-        border-bottom-left-radius: 3% !important;
+        border-bottom-left-radius: 0% !important;
+        border-bottom-right-radius: 0% !important;
     }
 }
 
 @media (min-width: 1000px){
     .card-size{
         height: auto;
-        width: 100% !important;
-        border-radius: 0 !important;
     }
     .card-img{
-        border-radius: 0% !important;
+        height: 50rem;
     }
     .main{
         display: block;
+    }
+    .hero-div{
+        margin-top: 28rem;
+    }
+}
+
+@media (min-width: 1300px){
+    .card-img{
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, .5)), /* White to black gradient */
+        url("../static/bg\ \(1380\ x\ 1050\ px\)\ \(2552\ x\ 2000\ px\)\ \(2552\ x\ 1500\ px\).png"); /* Background image */
+        background-size: cover; /* Ensures it fills the space */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+    }
+    .hero-div{
+        margin-top: 30rem;
     }
 }
