@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: black;
+    background: linear-gradient(to bottom, #e0e0e0, #808080); /* Light gray to dark gray */
 }
 
 html::before {
@@ -33,10 +34,19 @@ div{
     margin-bottom: 2rem;
 }
 
-.list-item svg:hover{
-    fill: gray;
-}
 
+.link-list .list-item svg {
+    width: 50px; /* Set a uniform size */
+    height: 50px;
+    transform: scale(1.1);
+  }
+
+.link-list .list-item svg:hover {
+    width: 50px; /* Set a uniform size */
+    height: 50px;
+    transform: scale(1.15);
+  }
+  
 
 .watch-button{
     height: 100%;
@@ -47,7 +57,7 @@ div{
 }
 
 .main{
-    background-color: black !important;
+    background-color: white !important;
     display: flex;
     margin: 0;
     overflow: visible;
@@ -164,7 +174,9 @@ svg {
 .date{
     color: gray;
 }
-
+.ep-desc{
+    margin-top: -1rem;
+}
 .ep-length{
     padding: 0;
     margin-top: -2rem;
@@ -178,12 +190,12 @@ svg {
     display: flex;
     justify-content: center;
     width: 90%;
-    border: none !important;
+    border:  none !important;
     border-radius: 5% !important;
 }
 
 .card-img{
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, .5)), /* White to black gradient */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, .8)), /* White to black gradient */
         url("../static/bg\ \(1380\ x\ 1050\ px\).png"); /* Background image */
     background-size: cover; /* Ensures it fills the space */
     background-position: center; /* Centers the image */

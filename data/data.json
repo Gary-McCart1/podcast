@@ -2,17 +2,11 @@
     {
       "id": 1,
       "title": "Episode 1 Title",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus semper lobortis.",
+      "description": "Welcome to our first episode! Listen in as our host Arthur Lozinski has an insightful conversation with Nick Carter, the Founder and CEO of INGENIOUS.BUILD and his journey to raise $37 million in Series A funding. As an avid athlete who runs ultra-marathons, competes in Ironman’s, and practices Jujitsu, Nick details his precise philosophy on the importance of resilience and discipline and how that has been an integral part of his success personally and professionally. ",
       "length": "1hr 30m",
-      "date": "01/20/25",
-      "guest": "Jeff Bezos"
-    },
-    {
-      "id": 2,
-      "title": "Episode 2 Title",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus semper lobortis.",
-      "length": "1hr 30m",
-      "date": "01/25/25",
-      "guest": "Elon Musk"
+      "date": "02/27/25",
+      "guest": "Nick Carter",
+      "gdescription": "Nick Carter is the Founder & CEO of INGENIOUS.BUILD, leading a $10B+ tech revolution in construction. A serial entrepreneur with multiple exits, he’s also a partner at Airframe Innovations, investing in early-stage startups. Beyond business, Nick is an ultra-marathon runner, Ironman, and Jiu-Jitsu athlete"
     }
+    
   ]
