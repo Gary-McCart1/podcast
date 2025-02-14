@@ -1,19 +1,20 @@
-mise installing precompiled python from indygreg/python-build-standalone
+# Use a base image with Python
+FROM python:3.12
 
-mise if you experience issues with this python (e.g.: running poetry), switch to python-build
+# Set the working directory inside the container
+WORKDIR /usr/src/app
 
-mise by running: mise settings set python_compile 1
+# Copy requirements file to install dependencies
+COPY requirements.txt .
 
-downloading cpython-3.12.9+20250212-x86_64-unknown-linux-gnu-pgo+lto-full.tar.zst
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
-installing cpython-3.12.9+20250212-x86_64-unknown-linux-gnu-pgo+lto-full.tar.zst
+# Copy the rest of the application files
+COPY . .
 
-mise failed to extract tar: ~/.local/share/mise/downloads/python/3.12.9/cpython-3.12.9+20250212-x86_64-unknown-linux-gnu-pgo+lto-full.tar.zst to ~/.local/share/mise/downloads/python/3.12.9
+# Expose the port the app will run on
+EXPOSE 5000
 
-mise failed to iterate over archive
-
-mise invalid gzip header
-
-mise Run with --verbose or MISE_VERBOSE=1 for more information
-
-unsuccessful command 'mise use -g python@3.12'
+# Set the default command to run your Flask app
+CMD ["python", "app.py"]
