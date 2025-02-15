@@ -205,7 +205,7 @@ svg {
     border-radius: 5% !important;
 }
 
-@media (max-width: 550px){
+@media (max-width: 900px){
     .card-size{
         height: auto;
         width: 100% !important;
@@ -217,6 +217,11 @@ svg {
         display: block;
     }
     .card-img{
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, .5)), /* White to black gradient */
+        url("../static/smaller-bg.png"); /* Background image */
+        background-size: cover; /* Ensures it fills the space */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
         border-top-left-radius: 0% !important;
         border-top-right-radius: 0% !important;
         border-bottom-left-radius: 0% !important;
