@@ -21,9 +21,6 @@ div{
     margin: 20px;
 }
 
-.card-title{
-    margin-top: 2rem;
-}
 
 .link-list{
     margin: auto;
@@ -101,12 +98,14 @@ div{
 }
 
 .hero-div{
-    margin: 0;
-    margin-top: 20rem;
+    margin: auto;
+    margin-top: 18rem;
     margin-left: -.75rem;
     display: block;
     justify-items: center;
     align-items: center;
+    color: white !important;
+    text-align: center;
 }
 
 .inside-btn{
@@ -143,11 +142,7 @@ div{
     align-items: center;
 }
 
-.title-text{
-    margin-right: 1px;
-    text-align: center;
-    color: white !important;
-}
+
 
 .description{
     text-align: justify;
