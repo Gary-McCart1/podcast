@@ -100,7 +100,6 @@ div{
 .hero-div{
     margin: auto;
     margin-top: 18rem;
-    margin-left: -.75rem;
     display: block;
     justify-items: center;
     align-items: center;
@@ -109,6 +108,7 @@ div{
 }
 
 .inside-btn{
+    margin: auto;
     border-radius: 5px;
     background-color: rgb(230, 230, 230);
     padding: 8px;
@@ -117,6 +117,7 @@ div{
     justify-content: center;
     width: 20rem;
     margin-bottom: 0;
+    border: 1px solid;
 }
 
 .inside-btn:hover{
@@ -205,7 +206,17 @@ svg {
     border-radius: 5% !important;
 }
 
-@media (max-width: 900px){
+@media (max-width: 350px){
+    .inside-btn{
+        width: 10rem;
+    }
+
+    .description{
+        text-align: left;
+    }
+}
+
+@media (max-width: 1000px){
     .card-size{
         height: auto;
         width: 100% !important;
@@ -226,6 +237,9 @@ svg {
         border-top-right-radius: 0% !important;
         border-bottom-left-radius: 0% !important;
         border-bottom-right-radius: 0% !important;
+    }
+    .hero-div{
+        margin-top: 16rem;
     }
 }
 
