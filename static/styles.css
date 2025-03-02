@@ -53,6 +53,15 @@ div{
     justify-content: space-between;
 }
 
+.active-btn {
+    color: black !important;
+}
+
+.unactive{
+    color: rgb(130, 130, 130) !important; /* Change this to your preferred color */
+}
+  
+
 .main{
     background-color: white !important;
     display: flex;
@@ -186,7 +195,7 @@ svg {
     display: flex;
     justify-content: center;
     width: 90%;
-    border:  none !important;
+    border:  black !important;
     border-radius: 5% !important;
 }
 
@@ -255,19 +264,19 @@ svg {
         display: block;
     }
     .hero-div{
-        margin-top: 28rem;
+        margin-top: 26rem;
     }
 }
 
 @media (min-width: 1300px){
     .card-img{
         background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, .5)), /* White to black gradient */
-        url("../static/bg\ \(1380\ x\ 1050\ px\)\ \(2552\ x\ 2000\ px\)\ \(2552\ x\ 1500\ px\).png"); /* Background image */
+        url("../static/xl-bg.png"); /* Background image */
         background-size: cover; /* Ensures it fills the space */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents tiling */
     }
     .hero-div{
-        margin-top: 30rem;
+        margin-top: 24rem;
     }
 }
