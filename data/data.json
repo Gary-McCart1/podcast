@@ -1,4 +1,16 @@
-[
+  [
+    {
+      "id": 2,
+      "title": "Episode 2",
+      "description": "Listen in to our insightful conversation with Brian Geisel, the CEO of Symage and Geisel Software as he gives powerful insight into his work with NASA on Space exploration, robotics device automation and how, by keeping a listening ear, he was able to strategically develop a product company from a services company.",
+      "length": "1hr 21m",
+      "date": "03/10/25",
+      "guest": "Brian Geisel",
+      "gdescription": "In this episode, Brian also details his philosophy on integrity in business and what it means to be centered by faith.",
+      "yt_link": "https://www.youtube.com/watch?v=oploglGS_Ro",
+      "sp_link": "https://open.spotify.com/episode/2oMhQGNJUIl6dn2jTmiT05?si=1add56554a304ebf&nd=1&dlsi=ba322675f4a64dc0",
+      "ap_link": "https://podcasts.apple.com/us/podcast/working-on-mars-nasa-robotics-automation-faith-business/id1798833565?i=1000698650075"
+    },
     {
       "id": 1,
       "title": "Episode 1",
