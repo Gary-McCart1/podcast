@@ -1,5 +1,17 @@
   [
     {
+      "id": 3,
+      "title": "Episode 3",
+      "description": "Listen in to another great conversation! On this episode we chat with Jamie-Alexis Fowler, the founder and executive director of Empower as she shares the lessons she learned throughout her career such as when one door closes, another one always opens! She also shares more about Empower and how they are changing the workplace landscape; building healthier and more equitable teams.",
+      "length": "1hr 13m",
+      "date": "03/26/25",
+      "guest": "Jamie-Alexis Fowler",
+      "gdescription": "Jamie-Alexis Fowler is the Founder of Empower Work and a seasoned leader known for building healthy, high-performing teams. She joins us to talk about career pivots, leadership, and driving social change through communication.",
+      "yt_link": "https://www.youtube.com/watch?v=I8glBZU3sRc",
+      "sp_link": "https://open.spotify.com/episode/4432f5TdBDofldKZP5mZK5?si=JsQvt3mtTxi9MOxYIesCcg",
+      "ap_link": "https://podcasts.apple.com/us/podcast/empowering-the-workforce-career-path-advice-and-more/id1798833565?i=1000700971794"
+    },
+    {
       "id": 2,
       "title": "Episode 2",
       "description": "Listen in to our insightful conversation with Brian Geisel, the CEO of Symage and Geisel Software as he gives powerful insight into his work with NASA on Space exploration, robotics device automation and how, by keeping a listening ear, he was able to strategically develop a product company from a services company.",
