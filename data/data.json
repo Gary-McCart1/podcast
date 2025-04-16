@@ -1,5 +1,18 @@
   [
     {
+      "id": 4,
+      "title": "Episode 4",
+      "description": "Listen in to our conversation with Alastair Paterson as he talks about his company Harmonic, and their impact on enabling AI adoption in the workforce. In this episode, Alastair explains how his company is creating a way for major sectors to feel comfortable with the pace of change in technology through safekeeping proprietary data, PII and more all while leveraging AI.",
+      "length": "53m",
+      "date": "04/16/25",
+      "guest": "Alastair Paterson",
+      "gdescription": "Alastair Paterson is the CEO and Co-Founder of Harmonic Security and a veteran cybersecurity entrepreneur. He joins us to discuss safe AI adoption, protecting sensitive data, and helping organizations keep pace with rapid technological change.",
+      "yt_link": "https://www.youtube.com/watch?v=okvOyGpoTao",
+      "sp_link": "https://open.spotify.com/episode/5fNLEHApPSNgOxEMAkw0v8?si=WTC3VZiGR96L6tFq42YVWg",
+      "ap_link": "https://podcasts.apple.com/us/podcast/enabling-ai-adoption-in-the-workforce-data-security/id1798833565?i=1000703768243"
+
+    },
+    {
       "id": 3,
       "title": "Episode 3",
       "description": "Listen in to another great conversation! On this episode we chat with Jamie-Alexis Fowler, the founder and executive director of Empower as she shares the lessons she learned throughout her career such as when one door closes, another one always opens! She also shares more about Empower and how they are changing the workplace landscape; building healthier and more equitable teams.",
