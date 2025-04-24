@@ -1,51 +1,62 @@
-  [
-    {
-      "id": 4,
-      "title": "Episode 4",
-      "description": "Listen in to our conversation with Alastair Paterson as he talks about his company Harmonic, and their impact on enabling AI adoption in the workforce. In this episode, Alastair explains how his company is creating a way for major sectors to feel comfortable with the pace of change in technology through safekeeping proprietary data, PII and more all while leveraging AI.",
-      "length": "53m",
-      "date": "04/16/25",
-      "guest": "Alastair Paterson",
-      "gdescription": "Alastair Paterson is the CEO and Co-Founder of Harmonic Security and a veteran cybersecurity entrepreneur. He joins us to discuss safe AI adoption, protecting sensitive data, and helping organizations keep pace with rapid technological change.",
-      "yt_link": "https://www.youtube.com/watch?v=okvOyGpoTao",
-      "sp_link": "https://open.spotify.com/episode/5fNLEHApPSNgOxEMAkw0v8?si=WTC3VZiGR96L6tFq42YVWg",
-      "ap_link": "https://podcasts.apple.com/us/podcast/enabling-ai-adoption-in-the-workforce-data-security/id1798833565?i=1000703768243"
-
-    },
-    {
-      "id": 3,
-      "title": "Episode 3",
-      "description": "Listen in to another great conversation! On this episode we chat with Jamie-Alexis Fowler, the founder and executive director of Empower as she shares the lessons she learned throughout her career such as when one door closes, another one always opens! She also shares more about Empower and how they are changing the workplace landscape; building healthier and more equitable teams.",
-      "length": "1hr 13m",
-      "date": "03/26/25",
-      "guest": "Jamie-Alexis Fowler",
-      "gdescription": "Jamie-Alexis Fowler is the Founder of Empower Work and a seasoned leader known for building healthy, high-performing teams. She joins us to talk about career pivots, leadership, and driving social change through communication.",
-      "yt_link": "https://www.youtube.com/watch?v=I8glBZU3sRc",
-      "sp_link": "https://open.spotify.com/episode/4432f5TdBDofldKZP5mZK5?si=JsQvt3mtTxi9MOxYIesCcg",
-      "ap_link": "https://podcasts.apple.com/us/podcast/empowering-the-workforce-career-path-advice-and-more/id1798833565?i=1000700971794"
-    },
-    {
-      "id": 2,
-      "title": "Episode 2",
-      "description": "Listen in to our insightful conversation with Brian Geisel, the CEO of Symage and Geisel Software as he gives powerful insight into his work with NASA on Space exploration, robotics device automation and how, by keeping a listening ear, he was able to strategically develop a product company from a services company.",
-      "length": "1hr 21m",
-      "date": "03/10/25",
-      "guest": "Brian Geisel",
-      "gdescription": "In this episode, Brian also details his philosophy on integrity in business and what it means to be centered by faith.",
-      "yt_link": "https://www.youtube.com/watch?v=oploglGS_Ro",
-      "sp_link": "https://open.spotify.com/episode/2oMhQGNJUIl6dn2jTmiT05?si=1add56554a304ebf&nd=1&dlsi=ba322675f4a64dc0",
-      "ap_link": "https://podcasts.apple.com/us/podcast/working-on-mars-nasa-robotics-automation-faith-business/id1798833565?i=1000698650075"
-    },
-    {
-      "id": 1,
-      "title": "Episode 1",
-      "description": "Welcome to our first episode! Listen in to hear our insightful conversation with Nick Carter, the Founder and CEO of INGENIOUS.BUILD about his journey to raise $37 million in Series A funding, his startup strategy secrets, hiring a super star team and more!",
-      "length": "54m",
-      "date": "02/27/25",
-      "guest": "Nick Carter",
-      "gdescription": "Nick Carter is the Founder & CEO of INGENIOUS.BUILD, leading a $10B+ tech revolution in construction. A serial entrepreneur with multiple exits, he’s also a partner at Airframe Innovations, investing in early-stage startups. Beyond business, Nick is an ultra-marathon runner, Ironman, and Jiu-Jitsu athlete.",
-      "yt_link": "https://www.youtube.com/watch?v=dhaOwRXh1CY",
-      "sp_link": "https://open.spotify.com/episode/2gUh9MjbwxTvyZPir9arBc?si=p_YO0HayTHaW05vXiV5nyw",
-      "ap_link": "https://podcasts.apple.com/us/podcast/nick-carter-episode-01/id1798833565?i=1000696383637"
-    }
-  ]
+[
+  {
+    "id": 5,
+    "title": "Episode 5",
+    "description": "Lior Yaari, CEO and Co-Founder of Grip Security, joins us on the podcast this week! Grip Security is an innovative Israeli cyber security start-up dedicated to securing the sprawling world of SaaS applications. Grip Security empowers companies to manage, discover, monitor and protect every Saas platform in use. In addition to providing details about Grip’s early days, Lior opens up about how US start-up culture compares to other places across the globe.",
+    "length": "1hr",
+    "date": "04/24/25",
+    "guest": "Lior Yaari",
+    "gdescription": "Lior Yaari joins us to explore how organizations can gain complete visibility into their SaaS ecosystems—including shadow IT—and enforce robust access controls and data protection across every app, user, and device. We dive into the future of SaaS security, preventing data loss, and what it takes to protect the modern enterprise in a rapidly evolving digital landscape.",
+    "yt_link": "https://www.youtube.com/watch?v=96jJ5KZZKnA&list=PL8VyjBpWC-pQ097HWhmNJQoUGPo6G_rN9&index=1",
+    "sp_link": "https://open.spotify.com/episode/4juWRJoBsiYO3oryycWF21?si=BbRhcmBCSmipyK5ZWwJSdw",
+    "ap_link": "https://podcasts.apple.com/us/podcast/applying-governance-to-saas-applications-mapping-data/id1798833565?i=1000704675710"
+  },
+  {
+    "id": 4,
+    "title": "Episode 4",
+    "description": "Listen in to our conversation with Alastair Paterson as he talks about his company Harmonic, and their impact on enabling AI adoption in the workforce. In this episode, Alastair explains how his company is creating a way for major sectors to feel comfortable with the pace of change in technology through safekeeping proprietary data, PII and more all while leveraging AI.",
+    "length": "53m",
+    "date": "04/16/25",
+    "guest": "Alastair Paterson",
+    "gdescription": "Alastair Paterson is the CEO and Co-Founder of Harmonic Security and a veteran cybersecurity entrepreneur. He joins us to discuss safe AI adoption, protecting sensitive data, and helping organizations keep pace with rapid technological change.",
+    "yt_link": "https://www.youtube.com/watch?v=okvOyGpoTao",
+    "sp_link": "https://open.spotify.com/episode/5fNLEHApPSNgOxEMAkw0v8?si=WTC3VZiGR96L6tFq42YVWg",
+    "ap_link": "https://podcasts.apple.com/us/podcast/enabling-ai-adoption-in-the-workforce-data-security/id1798833565?i=1000703768243"
+  },
+  {
+    "id": 3,
+    "title": "Episode 3",
+    "description": "Listen in to another great conversation! On this episode we chat with Jamie-Alexis Fowler, the founder and executive director of Empower as she shares the lessons she learned throughout her career such as when one door closes, another one always opens! She also shares more about Empower and how they are changing the workplace landscape; building healthier and more equitable teams.",
+    "length": "1hr 13m",
+    "date": "03/26/25",
+    "guest": "Jamie-Alexis Fowler",
+    "gdescription": "Jamie-Alexis Fowler is the Founder of Empower Work and a seasoned leader known for building healthy, high-performing teams. She joins us to talk about career pivots, leadership, and driving social change through communication.",
+    "yt_link": "https://www.youtube.com/watch?v=I8glBZU3sRc",
+    "sp_link": "https://open.spotify.com/episode/4432f5TdBDofldKZP5mZK5?si=JsQvt3mtTxi9MOxYIesCcg",
+    "ap_link": "https://podcasts.apple.com/us/podcast/empowering-the-workforce-career-path-advice-and-more/id1798833565?i=1000700971794"
+  },
+  {
+    "id": 2,
+    "title": "Episode 2",
+    "description": "Listen in to our insightful conversation with Brian Geisel, the CEO of Symage and Geisel Software as he gives powerful insight into his work with NASA on Space exploration, robotics device automation and how, by keeping a listening ear, he was able to strategically develop a product company from a services company.",
+    "length": "1hr 21m",
+    "date": "03/10/25",
+    "guest": "Brian Geisel",
+    "gdescription": "In this episode, Brian also details his philosophy on integrity in business and what it means to be centered by faith.",
+    "yt_link": "https://www.youtube.com/watch?v=oploglGS_Ro",
+    "sp_link": "https://open.spotify.com/episode/2oMhQGNJUIl6dn2jTmiT05?si=1add56554a304ebf&nd=1&dlsi=ba322675f4a64dc0",
+    "ap_link": "https://podcasts.apple.com/us/podcast/working-on-mars-nasa-robotics-automation-faith-business/id1798833565?i=1000698650075"
+  },
+  {
+    "id": 1,
+    "title": "Episode 1",
+    "description": "Welcome to our first episode! Listen in to hear our insightful conversation with Nick Carter, the Founder and CEO of INGENIOUS.BUILD about his journey to raise $37 million in Series A funding, his startup strategy secrets, hiring a super star team and more!",
+    "length": "54m",
+    "date": "02/27/25",
+    "guest": "Nick Carter",
+    "gdescription": "Nick Carter is the Founder & CEO of INGENIOUS.BUILD, leading a $10B+ tech revolution in construction. A serial entrepreneur with multiple exits, he’s also a partner at Airframe Innovations, investing in early-stage startups. Beyond business, Nick is an ultra-marathon runner, Ironman, and Jiu-Jitsu athlete.",
+    "yt_link": "https://www.youtube.com/watch?v=dhaOwRXh1CY",
+    "sp_link": "https://open.spotify.com/episode/2gUh9MjbwxTvyZPir9arBc?si=p_YO0HayTHaW05vXiV5nyw",
+    "ap_link": "https://podcasts.apple.com/us/podcast/nick-carter-episode-01/id1798833565?i=1000696383637"
+  }
+]
